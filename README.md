@@ -36,7 +36,7 @@ SELECT * from users;<br></br>
 
 After this all worked fine jump to the python code file on getting to know about how to do integration from spark to cassandra.<br></br>
 
-**Layers of Project**<br></br>
+**Main Insights of Project**:<br></br>
 
 First we made the dataframe from the u.user file which is uploaded alongside the code file. Go through the dataset before jumping to the code. Then we writed the dataframe 
 with all the configuration needed into Cassandra. We can check whether it is writed in Cassandra or not using 'SELECT * from users;' command.<br></br>
