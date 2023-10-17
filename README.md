@@ -21,20 +21,20 @@ At first We have our cassandra database which is empty which we have created in 
 **Step-1:** **Creating the Database for cassandra**<br>
 CREATE KEYSPACE movielens WITH replication = {"class":"SimpleStrategy",'replication_factor':'01'} and durable_writes=true;<br></br>
 
-**Using database movielens and creating table inside it of users**<br>
+**Step-2:** **Using database movielens and creating table inside it of users**<br>
 USE movielens;<br></br>
 
-**Creating table users in Cassandra with the columns names and datatypes in it**<br>
+**Step-3:** **Creating table users in Cassandra with the columns names and datatypes in it**<br>
 CREATE TABLE users (user_id int, age int, gender text, occupation text, zip text, primary_key (user_id));<br></br>
 
 
-**Verifying whether everything is set up or not?** <br>
+**Step-4:** **Verifying whether everything is set up or not?** <br>
 DESCRIBE TABLE users;<br></br>
 
-**Selecting all rows from table users**<br>
+**Step-5:** **Selecting all rows from table users**<br>
 SELECT * from users;<br></br>
 
-After this all worked fine jump to the python code file on getting to know about how to do integration from spark to cassandra.<br></br>
+**Step-6:** After this all worked fine jump to the python code file on getting to know about how to do integration from spark to cassandra.<br></br>
 
 **Main Insights of Project**:<br></br>
 
