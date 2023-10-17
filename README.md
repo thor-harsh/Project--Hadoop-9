@@ -16,7 +16,7 @@ Apache Cassandra is an open source NoSQL distributed database trusted by thousan
 
 Dive into the overall implementation and structure of this integration starting with basic steps taken step by step:<br></br>
 
-At first We have our cassandra database which is empty which we have created in Hadoop Cluster using following command;<br></br>
+**At first We have our cassandra database which is empty which we have created in Hadoop Cluster using following command:** <br></br>
 
 **Creating the Database for cassandra**<br>
 CREATE KEYSPACE movielens WITH replication = {"class":"SimpleStrategy",'replication_factor':'01'} and durable_writes=true;<br></br>
@@ -36,7 +36,7 @@ SELECT * from users;<br></br>
 
 After this all worked fine jump to the python code file on getting to know about how to do integration from spark to cassandra.<br></br>
 
-**We did two main things in spark**<br></br>
+**Layers of Project**<br></br>
 
 First we made the dataframe from the u.user file which is uploaded alongside the code file. Go through the dataset before jumping to the code. Then we writed the dataframe 
 with all the configuration needed into Cassandra. We can check whether it is writed in Cassandra or not using 'SELECT * from users;' command.<br></br>
