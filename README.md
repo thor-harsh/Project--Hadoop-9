@@ -8,7 +8,7 @@ Lets start by learning about Spark and Cassandra.<br></br>
 
 **What is Spark?** <br></br>
 
-Apache Spark™ is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.<br></br>
+Apache Spark is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.<br></br>
 
 **What is Cassandra?** <br></br>
 
