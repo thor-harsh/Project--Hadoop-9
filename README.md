@@ -18,7 +18,7 @@ Apache Cassandra is an open source NoSQL distributed database trusted by thousan
 
 At first We have our cassandra database which is empty which we have created in Hadoop Cluster using following command:<br>
 
-**Step-1:** **Creating the Database for cassandra**<br>
+**Step-1:** **Creating the Database for Cassandra**<br>
 CREATE KEYSPACE movielens WITH replication = {"class":"SimpleStrategy",'replication_factor':'01'} and durable_writes=true;<br></br>
 
 **Step-2:** **Using database movielens and creating table inside it of users**<br>
