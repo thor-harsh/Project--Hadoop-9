@@ -14,9 +14,9 @@ Apache Spark™ is a multi-language engine for executing data engineering, data 
 
 Apache Cassandra is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data.<br></br>
 
-Dive into the overall implementation and structure of this integration starting with basic steps taken step by step:<br></br>
+**Dive into the overall implementation and structure of this integration starting with basic steps taken step by step**:<br></br>
 
-**At first We have our cassandra database which is empty which we have created in Hadoop Cluster using following command:** <br></br>
+At first We have our cassandra database which is empty which we have created in Hadoop Cluster using following command:<br></br>
 
 **Creating the Database for cassandra**<br>
 CREATE KEYSPACE movielens WITH replication = {"class":"SimpleStrategy",'replication_factor':'01'} and durable_writes=true;<br></br>
