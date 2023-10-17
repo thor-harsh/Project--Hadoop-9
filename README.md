@@ -43,6 +43,11 @@ with all the configuration needed into Cassandra. We can check whether it is wri
 
 Secondly we read the Dataframe from cassandra and then we create views and even run sql queries on that.<br></br>
 
+</table>
+
+
+**So what you are you waiting for..? Jump to the code to get started. As usual for any doubt or query see you in pull request section 😁😂. Thanks!**
+
 
 
 
